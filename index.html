@@ -88,10 +88,11 @@
 
   document.getElementById("clear-button").addEventListener("click", clearBoard);
 
-  function clearBoard() {
+function clearBoard() {
     var tds = document.getElementsByTagName("td");
     for (var i = 0; i < tds.length; i++) {
       tds[i].innerText = "";
+      tds[i].style.backgroundColor = "white"; // set background color to default
     }
   }
 
