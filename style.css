@@ -3,7 +3,7 @@ table {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-image: url("E:/FULL Stack/web development/SudukoSolver/back.jpg");
+  background-image: url("sudukosolver/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(3px);
